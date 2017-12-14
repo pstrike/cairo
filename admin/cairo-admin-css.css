@@ -1,0 +1,50 @@
+/*
+// ==========================================================================================
+// Categories Custom Panel
+// ==========================================================================================
+*/
+
+.custom-categories{
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.codepages-social-icon-row {
+    position: relative;
+    margin: 0 0 10px;
+    padding: 10px 0;
+    border: 1px solid rgba(240,240,240,0.6);
+    background: rgba(240,240,240,0.2);
+}
+
+.codepages-social-icon-row p {
+    margin: 0 0 5px;
+    padding: 0 10px;
+}
+
+.codepages-social-icon-row-rm {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    background: rgba(190,190,190,0.2);
+    color: #444;
+}
+
+.codepages-social-icon-row-rm:hover {
+    background: rgba(210,210,210,0.2);
+    color: #999;
+}
+
+.menu-item-settings{
+	height:auto;
+	overflow:hidden;
+}

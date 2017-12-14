@@ -1,0 +1,472 @@
+.theme-browser .theme.plugin-install, .theme-browser .theme.plugin-activate, .theme-browser .theme.plugin-update {
+	border-color: #2f2f2f;
+	font-family: 'Cairo', sans-serif;
+}
+.codepagesthemes-wrap {
+    max-width: 1250px;
+}
+.codepagesthemes-demo-wrapper:before, .codepagesthemes-demo-wrapper:after {
+	content: ".";
+	height: 1px;
+	display: block;
+	visibility: hidden;
+	clear: both;
+}
+.codepagesthemes-demo-wrapper {
+	clear: both;
+	display: block;
+	margin: 0px -15px;
+}
+.codepagesthemes-demo-wrapper .theme-browser .theme {
+	border: 1px Solid #f1f1f1;
+	box-shadow: none;
+	border-radius: 5px;
+	overflow: hidden;
+	margin-left: 15px !important;
+	width: 30.5%;
+	margin: 0px 15px 30px;
+}
+.codepagesthemes-demo-wrapper .theme-browser .theme .theme-name {
+	background: #1d1d1d;
+	color: #fff;
+	padding-left: 0;
+	font-weight: 400;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	text-align: center;
+	font-size: 12px;
+	white-space: normal;
+	height: auto;
+	padding: 15px 30px;
+}
+.codepagesthemes-demo-wrapper .theme-browser .theme .theme-actions {
+	opacity: 0;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 35%;
+	text-align: center;
+	padding: 15px;
+	background: transparent;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+.codepagesthemes-demo-wrapper .theme-browser .theme .theme-screenshot img {
+	border: none;
+}
+.codepagesthemes-demo-wrapper .theme-browser .theme .theme-actions .button-primary {
+	font-size: 13px;
+	font-family: 'Cairo', sans-serif;
+	border: 0;
+	text-shadow: none;
+	box-shadow: none;
+	line-height: 2.5 !important;
+	height: auto !important;
+	background: #166eff;
+	padding: 3px 30px !important;
+	border-radius: 50px;
+}
+
+@-webkit-keyframes spin {
+	0% { -webkit-transform: rotate(0deg); }
+	100% { -webkit-transform: rotate(-359deg); }
+}
+
+@-moz-keyframes spin {
+	0% { -moz-transform: rotate(0deg); }
+	100% { -moz-transform: rotate(-359deg); }
+}
+
+@-o-keyframes spin {
+	0% { -o-transform: rotate(0deg); }
+	100% { -o-transform: rotate(-359deg); }
+}
+
+@-ms-keyframes spin {
+	0% { -ms-transform: rotate(0deg); }
+	100% { -ms-transform: rotate(-359deg); }
+}
+
+@keyframes spin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(-359deg); }
+}
+.codepages-demo-import-loader {
+	background: rgba(255, 255, 255, 0.7);
+	display: none;
+	height: 100%;
+	position: absolute;
+	text-align: center;
+	top: 0;
+	width: 100%;
+}
+.codepages-demo-import-loader i {
+	-moz-animation: spin 2s infinite linear;
+	-o-animation: spin 2s infinite linear;
+	-webkit-animation: spin 2s infinite linear;
+	animation: spin 2s infinite linear;
+	display: inline-block;
+	font-size: 32px;
+	height: 32px;
+	line-height: 32px;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+	top: 110px;
+	width: 32px;
+}
+.codepagesthemes-welcome-inner {
+    position: relative;
+}
+.codepages-importer-notice {
+	display: none;
+}
+.codepagesthemes-support-wrapper .feature-item {
+	margin-bottom: 35px;
+	text-align: center;
+}
+
+.codepagesthemes-support-wrapper .feature-item h4 span {
+	margin-left: 10px;
+}
+.codepagesthemes-support-wrapper .feature-item a {
+	border-radius: 0px;
+}
+.about-wrap.codepagesthemes-wrap div.updated, .about-wrap.codepagesthemes-wrap div.error, .about-wrap.codepagesthemes-wrap .notice{
+	display:block !important;
+}
+div.codepages-importer-notice{
+	background: #ffffff none repeat scroll 100% 0;
+	border-right: 4px solid #ffffff;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+	margin: 5px 0px 2px;
+	padding: 1px 12px;
+}
+div.codepages-importer-notice.codepages-error {
+	border-right-color: #dc3232;
+}
+div.codepages-importer-notice.codepages-updated {
+	border-right-color: #46b450;
+}
+.codepagesthemes-wrap h1 {
+	font-size: 2.6em;
+	line-height: 1.2;
+	margin: 30px 0 15px;
+	font-weight: 600;
+	color: #222;
+	padding: 0;
+	display: inline-block;
+	vertical-align: middle;
+}
+.codepagesthemes-wrap h1 span {
+	color: #166eff;
+	font-weight: bold;
+}
+.codepagesthemes-wrap h1:after {
+	content: "";
+	background: #166eff;
+	width: 20px;
+	height: 3px;
+	margin-right: 5px;
+	margin-top: 15px;
+	width: 50px;
+	display: block;
+}
+.svg .codepagesthemes-welcome-inner .wp-badge {
+  background: #166eff;
+  background-image: url(../images/logo-admin.png);
+  background-repeat: no-repeat;
+  background-position: center 20px;
+  border-radius: 5px;
+}
+.codepagesthemes-wrap .about-text {
+	max-width: 700px;
+	margin: 15px 0px 40px;
+	color: #1d1d1d;
+	font-size: 16px;
+}
+.codepagesthemes-wrap .about-text {
+	max-width: 700px;
+}
+.codepagesthemes-wrap .theme-logo {
+	display: inline-block;
+	margin: 0 10px 0 0;
+	vertical-align: middle;
+}
+.codepagesthemes-wrap .theme-version {
+	background: #166eff;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-o-border-radius: 50%;
+	-ms-border-radius: 50%;
+	color: #fff;
+	display: block;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	width: 50px;
+	font-weight: bold;
+}
+.wrap.about-wrap.codepagesthemes-wrap .nav-tab-wrapper {
+	margin-bottom: 30px;
+}
+#toplevel_page_cairo .dashicons-admin-generic:before,
+#toplevel_page_cairo .dashicons-admin-generic:before {
+	font-family: 'FontAwesome';
+	content: "\f26d";
+	font-size: 18px;
+	top: 0px;
+	position: relative;
+}
+.clearfix:before,
+.clearfix:after {
+	display: table;
+	content: " ";
+}
+.clearfix:after {
+	clear: both;
+}
+.codepagesthemes-thanks .description {
+	margin-top: 10px;
+}
+.codepagesthemes-required-notices {
+	padding: 20px 0px;
+	background: #fff;
+	border: 1px Solid #f1f1f1;
+	margin-bottom: 30px;
+	border-radius: 5px;
+	display: inline-block;
+	width: 100%;
+}
+.codepagesthemes-required-notices .notice-description {
+	font-size: 15px;
+  font-weight: 400;
+  line-height: 2;
+  color: #222;
+  margin: 0;
+  text-align: center;
+  padding: 0px 50px;
+}
+.codepagesthemes-install-plugins .install-plugin-inner {
+	position: relative;
+}
+.codepagesthemes-install-plugins .install-plugin-inner .plugin-info {
+	position: absolute;
+	bottom: 70px;
+	right: 0;
+	left: 0;
+	text-align: center;
+}
+.codepagesthemes-install-plugins .plugin-required {
+	position: absolute;
+	right: 0;
+	top: 0;
+	background: #ff4157;
+	color: #fff;
+	padding: 5px 10px;
+	font-size: 12px;
+}
+.codepagesthemes-install-plugins .plugin-active {
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: #166eff;
+	color: #fff;
+	padding: 5px 10px;
+	font-size: 12px;
+}
+.codepagesthemes-install-plugins .plugin-deactivate {
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: #000000;
+	color: #fff;
+	padding: 5px 10px;
+	font-size: 12px;
+}
+.cairo_page_codepages_demo_installer .jconfirm.supervan .jconfirm-bg {
+    background-color: rgba(0, 0, 0, 0.68);
+}
+.cairo_page_codepages_demo_installer .jconfirm .jconfirm-scrollpane {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: auto;
+    width: 50%;
+    height: 40%;
+    margin: auto;
+    border-radius: 3px;
+}
+.cairo_page_codepages_demo_installer .jconfirm-box-container {
+    border-radius: 3px;
+    display: inline-block;
+}
+.cairo_page_codepages_demo_installer .jconfirm .jconfirm-box {
+		background: #FFF;
+		padding: 30px 15px;
+    margin: 0 !important;
+    display: inline-block;
+}
+.cairo_page_codepages_demo_installer .jconfirm.supervan .jconfirm-box .buttons button {
+    font-size: 14px;
+    border-radius: 2px;
+    background: #166eff;
+    text-shadow: none;
+    border: 0;
+    color: #FFF;
+    width: 25%;
+    padding: 10px;
+    border-radius: 3px;
+}
+.cairo_page_codepages_demo_installer .jconfirm.supervan  .jconfirm-box h2, .jconfirm.supervan  .jconfirm-box h3 {
+	color: #000;
+	font-weight: bold;
+}
+.cairo_page_codepages_demo_installer .jconfirm.supervan .jconfirm-box div.content {
+    text-align: center;
+    color: #000;
+}
+.cairo_page_codepages_demo_installer .jconfirm.supervan .jconfirm-box-container .jconfirm-box div.content {
+	text-align: right;
+	font-size: 14px;
+	line-height: 1.6em;
+}
+.cairo_page_codepages_demo_installer .jconfirm.supervan .jconfirm-box-container .jconfirm-box div.content ol {
+	margin-left: 1em;
+}
+.theme-demo-new::after {
+	background: transparent;
+	border-color: #166eff transparent transparent;
+	border-style: solid;
+	border-width: 5px;
+	bottom: -9px;
+	content: "";
+	height: 0;
+	right: 0;
+	margin: 0 auto;
+	position: absolute;
+	left: 0;
+	width: 0;
+}
+.theme-demo-new {
+	background: #166eff;
+	border-radius: 2px;
+	color: #333;
+	font-size: 10px;
+	font-weight: bold;
+	padding: 2px 5px;
+	position: absolute;
+	left: 0;
+	text-align: center;
+	top: -9%;
+}
+b, strong {
+	font-weight: 700;
+}
+.codepagesthemes-demo-wrapper .theme-browser.rendered .theme:focus .theme-actions,
+.codepagesthemes-demo-wrapper .theme-browser.rendered .theme:hover .theme-actions {
+	opacity: 1;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.codepagesthemes-demo-wrapper .theme-browser .theme, .codepagesthemes-demo-wrapper .theme-browser .theme:hover, .codepagesthemes-demo-wrapper .theme-browser .theme:focus{
+	cursor:default;
+}
+
+/*Demo List*/
+.demo-inactive .installation-progress{
+	background: rgba(255, 255, 255, 0.5) none repeat scroll 100% 0;
+	height: 100%;
+	right: 0;
+	position: absolute;
+	left: 0;
+	top: 0 !important;
+	padding:0 !important;
+	cursor:default !important;
+}
+.demo-active .button-uninstall-demo, .demo-inactive .button-uninstall-demo{
+	display:none;
+}
+.demo-actived .button-install-demo{
+	display:none;
+}
+.codepagesthemes-demo-title{
+	text-align:center;
+	position:relative;
+	width:100%;
+	padding:25px 0;
+	overflow:hidden;
+	margin-bottom:30px;
+}
+.codepagesthemes-demo-title h3{
+	font-size: 2.6em;
+  line-height: 1.2;
+  margin: 15px 0;
+  font-weight: 600;
+  color: #222;
+  padding: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+.warning-text{
+	color:#FF0000 !important;
+}
+
+.theme-actions.radium-import-bar{
+    text-align: center;
+}
+.theme-actions.radium-import-bar .button-primary {
+    padding-left: 15px;
+    padding-right: 15px;
+    background: #166eff;
+    border: 0;
+    color: #FFF;
+    font-size: 14px;
+
+    font-weight: 400;
+    border-radius: 50px;
+    text-shadow: none;
+    box-shadow: none;
+    padding: 10px 35px;
+    height: auto;
+		-webkit-transition: all 0.2s ease-in-out;
+		-moz-transition: all 0.2s ease-in-out;
+		-ms-transition: all 0.2s ease-in-out;
+		-o-transition: all 0.2s ease-in-out;
+		transition: all 0.2s ease-in-out;
+}
+.theme-actions.radium-import-bar .button-primary:hover {
+    background: #212121;
+		-webkit-transition: all 0.2s ease-in-out;
+		-moz-transition: all 0.2s ease-in-out;
+		-ms-transition: all 0.2s ease-in-out;
+		-o-transition: all 0.2s ease-in-out;
+		transition: all 0.2s ease-in-out;
+}
+.radium-choose-demo-radio {
+    position: absolute;
+    z-index: 1;
+    bottom: 10px;
+    margin: 0 auto !important;
+    left: 0;
+    right: 0;
+}
+h3#demo-main {
+    padding: 15px 15px 40px;
+}
+.settings-error {
+  	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serifsans-serif;
+}
+table.widefat {
+    margin-bottom: 30px;
+}

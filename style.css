@@ -1,0 +1,59 @@
+/*
+	Theme Name: Cairo
+  Text Domain: cairo
+  Theme URI: http://www.themeforest.net
+  Author: CodePage
+  Author URI: http://www.themeforest.net/user/codpages
+	Description: Cairo - News Magazine WordPress Theme
+	Version: 1.0
+	License: GNU General Public License v2 or later
+	License http://www.gnu.org/licenses/gpl-2.0.html
+	License URI:
+	Tags: one-column, two-columns, right-sidebar, full-width-template, accessibility-ready, custom-colors, custom-menu, featured-images, post-formats, sticky-post, theme-options, translation-ready
+*/
+
+/*  Wp Specific  */
+
+.wp-caption,
+.wp-caption-text,
+.sticky,
+.gallery-caption,
+.alignright,
+.alignleft,
+.aligncenter,
+.screen-reader-text,
+.bypostauthor {
+  color: inherit;
+}
+
+.alignright {
+  float: right;
+  margin: 6px 0 14px 20px;
+}
+
+.alignleft {
+  float: left;
+  margin: 6px 20px 14px 0;
+}
+
+.alignright img,
+.alignleft img,
+.aligncenter img {
+  width: 100%;
+  max-width: 100%;
+}
+
+img.center {
+  margin: 0 auto;
+  display: block;
+}
+
+img.full {
+  width: 100%;
+}
+
+.aligncenter {
+  display: block;
+  clear: both;
+  margin: 0 auto;
+}

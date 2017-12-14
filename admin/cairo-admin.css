@@ -1,0 +1,1158 @@
+#page-ot_theme_options,
+.ot-metabox-wrapper {
+    font-family: 'Ubuntu', sans-serif;
+    color: #010101;
+}
+
+.ot-metabox-wrapper {
+    padding: 5px 5px;
+}
+
+#page-ot_theme_options {
+    min-width: 980px;
+}
+
+.option-tree-ui-media-wrap img {
+    max-width: 20%;
+}
+
+/*
+// ==========================================================================================
+// Option Tree Header
+// ==========================================================================================
+*/
+
+#option-tree-header {
+   position: relative;
+   margin: 15px 0 0;
+   padding: 15px;
+   min-height: 39px;
+   box-shadow: none;
+   border-radius: 0;
+   background: #000 !important;
+   color: #fff !important;
+   border-bottom: 1px Solid #232323;
+}
+
+#option-tree-header #option-tree-version {
+    display: none;
+}
+
+#option-tree-header #option-tree-logo {
+    position: absolute;
+    display: inline-block;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+#option-tree-logo .link-site {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    line-height: 20px;
+    padding-right: 15px;
+    border-right: 1px Solid #232323;
+    margin-right: 15px;
+    margin-top: 10px;
+    float: left;
+}
+
+#option-tree-header #option-tree-logo a {
+    border-right: 0;
+    float: none;
+    height: auto;
+    padding: 0;
+    width: auto;
+    color: #FFF;
+    o-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+#option-tree-logo .link-site a:hover {
+    color: #166eff !important;
+    o-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+#option-tree-header #option-tree-logo a:before {
+    content: "";
+    display: none;
+}
+
+
+#option-tree-header #option-tree-logo:hover {
+    background: none !important;
+    color: inherit !important;
+}
+
+#option-tree-logo .title {
+    display: inline-block;
+    float: left;
+}
+
+#option-tree-logo .title img {
+    display: inline-block;
+    width: 120px;
+    padding-right: 10px;
+}
+
+#option-tree-logo .sub-title {
+    font-size: 15px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2.2px;
+    display: inline-block;
+    line-height: 20px;
+    padding-right: 15px;
+    margin-top: 10px;
+    border-right: 1px Solid #232323;
+    margin-right: 15px;
+    float: left;
+}
+
+#option-tree-sub-header {
+    margin: 0;
+    padding: 15px 20px;
+    box-shadow: none;
+    border: none;
+    background: #14161e;
+}
+
+/*
+// ==========================================================================================
+// Left aria
+// ==========================================================================================
+*/
+
+.wrap.settings-wrap .ui-tabs-nav {
+   float: left;
+   margin: 0;
+   padding: 0;
+   width: 220px;
+}
+
+.wrap.settings-wrap .ui-tabs-nav li {
+    border: none;
+    border-radius: 0;
+    font-size: 12px;
+    color: #fff;
+}
+
+.wrap.settings-wrap .ui-tabs-nav li a {
+    padding: 15px 5px 15px 15px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 21px;
+    font-weight: 500;
+    color: inherit;
+    border-left: 3px SOlid transparent;
+    o-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.wrap.settings-wrap .ui-tabs-nav li a i {
+    font-size: 20px;
+    color: #FFF;
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+    line-height: 18px;
+}
+
+.wrap.settings-wrap .ui-tabs-nav li a:focus,
+.wrap.settings-wrap .ui-tabs-nav li a:hover,
+.wrap.settings-wrap .ui-tabs-nav li.ui-state-active a {
+    color: inherit;
+    outline: none;
+    box-shadow: none;
+    o-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.wrap.settings-wrap .ui-tabs-nav li.ui-state-focus a {
+    background-color: #010101;
+}
+
+.wrap.settings-wrap .ui-tabs-nav li.ui-state-active a {
+    background-color: #166eff;
+    color: #FFF;
+    o-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.wrap.settings-wrap .ui-tabs-nav li.ui-state-active a i {
+    color: #FFF;
+    o-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+/*
+// ==========================================================================================
+// Format Settings
+// ==========================================================================================
+*/
+
+.format-settings {
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px Solid #eaeaea;
+}
+
+.format-settings:last-child {
+    border-bottom: 0px Solid #eaeaea;
+    padding-bottom: 0px;
+}
+
+.format-setting-wrap,
+.option-tree-sortable .format-settings {
+    padding: 0;
+}
+
+.barcelona-setting-indent-wrap .format-setting-wrap {
+    padding-left: 75px;
+}
+
+.ot-metabox-wrapper .format-setting-wrap {
+    padding: 10px;
+}
+
+/*
+// ==========================================================================================
+// Format Setting Label
+// ==========================================================================================
+*/
+
+.format-setting-label {
+    margin: 0 0 10px;
+    padding: 10px 0px;
+    border: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+#option-tree-settings-api .description h3,
+#option-tree-settings-api .format-setting-label .label,
+#poststuff .format-setting-label .label {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-weight: 500;
+    color: #1d1d1d;
+}
+
+/*
+// ==========================================================================================
+// Format Setting
+// ==========================================================================================
+*/
+
+.format-setting.has-desc,
+.format-setting.wide-desc {
+    margin-top: -15px;
+}
+
+.format-setting .description {
+    float: inherit;
+    width: auto;
+    margin-bottom: 15px;
+    padding: 0px 0px 10px 0px;
+    color: #cacaca;
+    border-bottom: 1px Solid #eaeaea;
+    font-style: italic;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+
+.list-item-description {
+    padding-top: 10px;
+    color: #737373;
+}
+
+.format-setting .format-setting-inner {
+    float: initial;
+    width: auto;
+    padding: 0;
+}
+
+
+/*
+// ==========================================================================================
+// OptionTree Wrappers
+// ==========================================================================================
+*/
+
+#pending, #option-tree-settings-api #poststuff #post-body {
+    position: relative;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+}
+
+#option-tree-settings-api .metabox-holder {
+    padding: 25px;
+    background: #f8f8f8;
+    min-height: 600px;
+}
+
+#option-tree-settings-api .postbox {
+    margin: 0;
+}
+
+#option-tree-settings-api > .ui-tabs {
+    min-width: 533px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-shadow: inset 220px 0 0 #14161e;
+    border-radius: 0;
+    background: #fff;
+}
+
+/*
+// ==========================================================================================
+// Theme Option & Side Metabox Tabs
+// ==========================================================================================
+*/
+
+.ot-theme-option-tabs.ui-tabs,
+#side-sortables .ot-metabox-tabs.ui-tabs {
+    position: relative;
+}
+
+.ot-theme-option-tabs.ui-tabs .inside,
+#side-sortables .ot-metabox-tabs.ui-tabs .ot-metabox-wrapper {
+    overflow: hidden;
+}
+
+.ot-theme-option-tabs.ui-tabs .ot-theme-option-panels,
+#side-sortables .ot-metabox-tabs.ui-tabs .ot-metabox-panels {
+    width: 100%;
+    min-height: 560px;
+    padding: 90px 0 0 0px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.ot-theme-option-tabs.ui-tabs .ot-theme-option-nav.ui-tabs-nav,
+#side-sortables .ot-metabox-tabs.ui-tabs .ot-metabox-nav.ui-tabs-nav {
+    position: absolute;
+    top: -25px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    padding-bottom: 25px;
+    text-align: left;
+    margin: 0;
+    padding-top: 25px;
+    border: none;
+    background: #f8f8f8;
+}
+
+.ot-theme-option-nav.ui-tabs-nav.ui-helper-reset.ui-helper-clearfix.ui-widget-header.ui-corner-all {
+    background: #fff;
+}
+
+#side-sortables .ot-metabox-tabs.ui-tabs .ot-metabox-nav.ui-tabs-nav {
+    margin-top: 10px;
+}
+
+.ot-theme-option-tabs.ui-tabs .ot-theme-option-nav.ui-tabs-nav li.ui-state-default,
+#side-sortables .ot-metabox-tabs.ui-tabs .ot-metabox-nav.ui-tabs-nav li.ui-state-default {
+    display: inline-block;
+    float: none;
+    margin: auto;
+    padding: 0;
+    border: none;
+    background: #171523;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.ot-theme-option-tabs.ui-tabs .ot-theme-option-nav.ui-tabs-nav li:hover,
+#side-sortables .ot-metabox-tabs.ui-tabs .ot-metabox-nav.ui-tabs-nav li:hover {
+    border: none;
+}
+
+.ot-theme-option-tabs.ui-tabs .ot-theme-option-nav.ui-tabs-nav li.ui-state-active,
+#side-sortables .ot-metabox-tabs.ui-tabs .ot-metabox-nav.ui-tabs-nav li.ui-state-active {
+  padding: 0;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  color: black;
+}
+
+.ot-theme-option-tabs.ui-tabs .ot-theme-option-nav.ui-tabs-nav li a,
+#side-sortables .ot-metabox-tabs.ui-tabs .ot-metabox-nav.ui-tabs-nav li a {
+    display: block;
+    padding: 15px 20px !important;
+    line-height: 10px;
+    outline: 0;
+    text-decoration: none;
+    font-weight: normal;
+    color: #ffffff;
+    background: #1f212d;
+    border-radius: 0px;
+    border: none;
+}
+
+.ot-theme-option-tabs.ui-tabs .ot-theme-option-nav.ui-tabs-nav li a:hover,
+#side-sortables .ot-metabox-tabs.ui-tabs .ot-metabox-nav.ui-tabs-nav li a:hover {
+    outline: none;
+    color: #FFF;
+}
+
+.ot-theme-option-tabs.ui-tabs .ot-theme-option-nav.ui-tabs-nav li.ui-state-focus a,
+#side-sortables .ot-metabox-tabs.ui-tabs .ot-metabox-nav.ui-tabs-nav li.ui-state-focus a {
+    padding: 15px 20px !important;
+    background: rgb(31, 33, 45);
+}
+
+.ot-theme-option-tabs.ui-tabs .ot-theme-option-nav.ui-tabs-nav li.ui-state-active a,
+#side-sortables .ot-metabox-tabs.ui-tabs .ot-metabox-nav.ui-tabs-nav li.ui-state-active a {
+    padding: 15px 20px !important;
+    background: #166eff;
+    color: #FFF;
+    border-radius: 0px;
+    border: none;
+}
+
+.ot-theme-option-tabs.ui-tabs .ot-theme-option-panel,
+#side-sortables .ot-metabox-tabs.ui-tabs .ot-metabox-panel {
+    clear: both;
+}
+
+#side-sortables .ot-metabox-tabs.ui-tabs .format-setting .description,
+#side-sortables .ot-metabox-tabs.ui-tabs .format-setting .format-setting-inner {
+    width: 100%;
+}
+
+/*
+// ==========================================================================================
+// Radio Images
+// ==========================================================================================
+*/
+
+.type-radio-image .option-tree-ui-radio-images {
+    float: left;
+    width: 127px;
+    margin: 0 15px 10px 0;
+}
+
+.barcelona-radio-img-horizontal-wrap .option-tree-ui-radio-images {
+    width: 250px;
+}
+
+.type-radio-image .option-tree-ui-radio-images img {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    border-radius: 0px;
+    border: 3px solid #ddd;
+    cursor: pointer;
+    opacity: 1;
+    overflow: hidden;
+    o-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.type-radio-image .option-tree-ui-radio-images img.option-tree-ui-radio-image-selected,
+.type-radio-image .option-tree-ui-radio-images img:hover {
+    box-shadow: none;
+    border-color: #166eff;
+    o-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+
+/*
+// ==========================================================================================
+// On/Off Switch
+// ==========================================================================================
+*/
+
+@media only screen {
+    .on-off-switch {
+        background-color: #fff;
+        border: 1px solid #f1f1f1;
+        color: #1f212d;
+        box-shadow: none;
+        border-radius: 0px;
+        overflow: hidden;
+    }
+    .on-off-switch input:last-of-type + label {
+        color: #b8b8b8;
+    }
+    .on-off-switch input:checked + label {
+        color: #fff;
+    }
+    .on-off-switch input:last-of-type:checked + label {
+        color: #fff;
+    }
+    .on-off-switch .slide-button {
+        background: #33be85;
+        border: none;
+        color: #fff;
+        border-radius: 0px;
+        box-shadow: none;
+        -webkit-transition: all 0.2s ease-out;
+        -moz-transition: all 0.2s ease-out;
+        transition: all 0.2s ease-out;
+    }
+    .on-off-switch input:last-of-type:checked ~ .slide-button {
+        background: #ff0000;
+        color: #fff;
+        left: 50%;
+        box-shadow: none;
+        border-radius: 0px;
+    }
+}
+
+.option-tree-ui-buttons {
+    background: #fff;
+    border: none;
+    margin: 0px 0 0;
+    border-radius: 0;
+}
+
+.option-tree-ui-button.button {
+    min-width: initial;
+    height: 32px !important;
+    line-height: 32px !important;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #166eff;
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+.button-primary.button {
+    font-weight: normal;
+}
+
+.option-tree-ui-button.button:hover,
+.option-tree-ui-button.button:focus {
+    outline: 0;
+    background-color: #166eff;
+    box-shadow: none;
+}
+
+.option-tree-ui-button.button-secondary {
+    background-color: #ff0000;
+}
+
+.option-tree-ui-button.button-secondary:hover,
+.option-tree-ui-button.button-secondary:focus {
+    background-color: #999;
+}
+
+.option-tree-list-item-add.button {
+    background-color: #62da73;
+    o-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.ot-metabox-wrapper .option-tree-list-item-add.button {
+    font-weight: normal;
+}
+
+.option-tree-list-item-add.button:hover,
+.option-tree-list-item-add.button:focus {
+    background-color: #DA0D0D;
+    o-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+button.reset-settings {
+    top: -50px;
+    left: 5px;
+}
+
+.option-tree-ui-button.button .icon {
+    line-height: 30px;
+    overflow: initial;
+    font-size: 16px;
+    margin: 0;
+    text-align: center;
+}
+
+.ot-icon-plus-circle:before {
+    content: "\e61a";
+    font-family: themify;
+    font-weight: 700;
+}
+
+.ot-icon-minus-circle:before {
+    content: "\e605";
+    font-family: themify;
+    font-weight: 700;
+}
+
+.ot_upload_media {
+    right: 0;
+}
+
+.option-tree-ui-upload-parent {
+    width: auto !important;
+    margin-right: 0;
+    padding: 0px;
+    position: relative;
+}
+
+div.option-tree-ui-media-wrap {
+    margin: 0;
+    min-height: 35px;
+    position: relative;
+}
+
+input.option-tree-ui-upload-input,
+input.option-tree-ui-input,
+.textarea, .ot-metabox-wrapper textarea {
+    background-color: #fcfcfc;
+    border: 1px solid #dfdfdf !important;
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 5px !important;
+    padding: 7px 6px;
+    border-radius: 0;
+    box-shadow: none;
+    o-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+input.option-tree-ui-upload-input,
+input.option-tree-ui-input {
+    overflow: hidden;
+    height: 32px;
+    border: 1px solid #e6e6e6 !important;
+    margin: 0px 0px 32px 0px;
+    font-family: 'Open Sans', arial, sans-serif;
+    color: #555555;
+    font-size: 12px;
+    box-shadow: none !important;
+    border-radius: 0;
+    padding: 0px 15px !important;
+}
+
+input:hover.option-tree-ui-upload-input,
+input:hover.option-tree-ui-input,
+.textarea:hover, .ot-metabox-wrapper textarea:hover {
+  border-color: #166eff !important;
+  box-shadow: none;
+  o-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+
+}
+input:focus.option-tree-ui-upload-input,
+input:focus.option-tree-ui-input,
+.textarea:focus, .ot-metabox-wrapper textarea:focus {
+    border-color: #166eff !important;
+    box-shadow: none;
+    o-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.textarea, .ot-metabox-wrapper textarea {
+    font-family: inherit;
+    resize: vertical;
+}
+
+textarea.barcelona-textarea-code {
+    font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+    font-size: 13px;
+    line-height: 21px;
+}
+
+.select-wrapper {
+    height: 32px;
+    border: 1px solid #e6e6e6 !important;
+    font-family: 'Open Sans', arial, sans-serif;
+    color: #555555;
+    font-size: 12px;
+    box-shadow: none !important;
+    border-radius: 0;
+    o-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.option-tree-ui-colorpicker-input-wrap .wp-color-result,
+.option-tree-ui-colorpicker-input-wrap .wp-color-result.button {
+    height: 32px;
+    outline: 0;
+    margin: 0 5px 5px 0px;
+    top: 0px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0;
+    border: 1px solid #e6e6e6 !important;
+    o-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.option-tree-ui-colorpicker-input-wrap .wp-color-result:after,
+.option-tree-ui-colorpicker-input-wrap .wp-color-result.button .wp-color-result-text {
+    line-height: 30px;
+    border-left: 1px solid #e6e6e6;
+    background: #FFF;
+    border-radius: 0px;
+    o-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.wp-picker-active span.wp-picker-input-wrap .hide-color-picker {
+    display: inline-block;
+}
+
+.wp-color-result:focus:after, .wp-color-result:hover:after {
+    color: #23282d;
+    border-color: #e6e6e6;
+    border-left: 1px solid #e6e6e6;
+}
+
+/*
+// ==========================================================================================
+// Setting Item with Drag & Drop
+// ==========================================================================================
+*/
+
+.option-tree-setting-wrap {
+    margin: 0 0 15px;
+}
+
+.option-tree-setting-wrap li {
+    margin: 0 0 15px;
+}
+
+.option-tree-setting {
+    border: none;
+    border-radius: 0;
+}
+
+.option-tree-setting:hover {
+    box-shadow: none;
+}
+
+.option-tree-setting .open {
+    height: 24px;
+    padding: 10px 100px 10px 20px;
+    line-height: 25px;
+    text-transform: uppercase;
+    font-size: 14px;
+    background: #1d1d1d !important;
+    color: #fff !important;
+    font-weight: 500;
+    o-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.option-tree-setting .open:hover {
+    background: #000000 !important;
+    color: #fff !important;
+    o-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.option-tree-setting .open:hover:before {
+    top: 16px;
+    left: 9px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.button-section {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.button-section .button,
+.button-section .button:hover,
+.button-section .button:focus {
+    margin: 0;
+    padding: 0 16px !important;
+    height: 44px !important;
+    line-height: 1 !important;
+    text-align: center !important;
+    outline: 0;
+    box-shadow: none;
+    background-color: transparent;
+    o-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.button-section .button:hover,
+.button-section .button.active:hover {
+    background-color: rgba(255,255,255,0.2);
+    o-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.button-section .button.active {
+    background-color: transparent;
+}
+
+.button-section .button.active:focus {
+    box-shadow: none;
+}
+
+.button-section .button .icon {
+    margin: 5px 0 0;
+    color: #fff;
+    opacity: 1;
+    font-size: 16px;
+    o-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.button.option-tree-setting-edit .icon:before {
+    content: "\f067";
+}
+
+.button.option-tree-setting-edit.active .icon:before {
+    content: "\f068";
+}
+
+.option-tree-setting-body {
+    border: 1px dashed #ddd;
+    border-top: none;
+    padding: 0;
+    border-radius: 0;
+}
+
+.option-tree-sortable .option-tree-setting .format-settings {
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+/*
+// ==========================================================================================
+// Meta Box Tabs
+// ==========================================================================================
+*/
+
+.ot-metabox-tabs.ui-tabs {
+    overflow: initial;
+    position: relative;
+    margin: 0;
+}
+.ot-metabox-tabs.ui-tabs .ot-metabox-wrapper {
+    overflow: hidden;
+}
+
+.ot-metabox-tabs.ui-tabs .ot-metabox-panels {
+    border: 0px solid #D5D5D5;
+    margin: 0;
+    min-height: 350px;
+    padding: 15px 20px 15px 200px;
+    border-radius: 0;
+    overflow: initial;
+    background: #f8f8f8;
+}
+
+.ot-metabox-tabs.ui-tabs .tab-content {
+    position: relative;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.ot-metabox-tabs.ui-tabs .ot-metabox-nav.ui-tabs-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 180px;
+    height: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    float: none;
+    margin: 0;
+    padding: 18px 0 0;
+    background: #010101;
+}
+.ot-metabox-tabs.ui-tabs .ot-metabox-nav.ui-tabs-nav li,
+.ot-metabox-tabs.ui-tabs .ot-metabox-nav.ui-tabs-nav li.ui-state-focus {
+    background: none;
+    border: none;
+    display: block;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    width: 100%;
+
+
+    border-radius: 0;
+}
+.ot-metabox-tabs.ui-tabs .ot-metabox-nav.ui-tabs-nav li.ui-state-active {
+    background: white;
+    border-color: #ccc;
+    color: black;
+}
+.ot-metabox-tabs.ui-tabs .ot-metabox-nav.ui-tabs-nav li a {
+    color: #FFFFFF;
+    display: block;
+    line-height: 18px;
+    outline: 0;
+    padding: 12px 5px 12px 12px;
+    box-shadow: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: normal;
+}
+.ot-metabox-tabs.ui-tabs .ot-metabox-nav.ui-tabs-nav li a:hover {
+    color: #fff;
+    outline: none;
+}
+
+.ot-metabox-tabs.ui-tabs .ot-metabox-nav.ui-tabs-nav li.ui-state-active,
+.ot-metabox-tabs.ui-tabs .ot-metabox-nav.ui-tabs-nav li.ui-state-active a {
+  background-color: #166eff;
+  color: #FFF;
+  o-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.ot-metabox-tabs.ui-tabs .ot-metabox-panel {
+    clear: both;
+}
+
+/*
+// ==========================================================================================
+// Numeric Slider
+// ==========================================================================================
+*/
+
+.type-numeric-slider {
+    overflow: initial;
+}
+
+.type-numeric-slider .format-setting-inner {
+    background: none;
+    border: none;
+    min-height: 48px;
+    padding: 0;
+    border-radius: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.ot-numeric-slider-wrap {
+    margin: 0;
+    padding-left: 70px;
+    padding-top: 23px;
+}
+.ot-numeric-slider-wrap .ot-numeric-slider-helper-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 40px !important;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 !important;
+    font-size: 18px;
+    border-radius: 0px;
+    background-color: #166eff;
+    color: #fff;
+    border: none !important;
+}
+.ot-numeric-slider.ui-slider {
+    background: #999;
+    border: none;
+    height: 1px !important;
+    margin: 0;
+    position: relative;
+    -webkit-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.05);
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+.ot-numeric-slider.ui-slider-horizontal {
+    height: 11px;
+}
+.ot-numeric-slider.ui-slider .ui-slider-handle {
+    border: none;
+    color: #555;
+    cursor: pointer;
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: -14px -14px;
+    outline: 0;
+    position: absolute;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 1px 0 rgba(0,0,0,.08);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 1px 0 rgba(0,0,0,.08);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 1px 0 rgba(0,0,0,.08);
+    border-radius: 100%;
+}
+
+/*
+// ==========================================================================================
+// Default
+// ==========================================================================================
+*/
+
+.ot-numeric-slider.ui-slider .ui-slider-handle {
+    background: #166eff !important;
+}
+
+.barcelona-filter-category-wrap .format-setting {
+    position: relative;
+    height: 252px;
+    overflow: auto;
+    border: 15px solid #f3f3f3;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+.barcelona-filter-category-wrap .format-setting-inner {
+    width: 100%;
+    background: #fff;
+    padding: 10px 0;
+}
+
+#post .barcelona-filter-category-wrap .format-setting-inner p {
+    margin: 0 0 10px !important;
+    padding: 0 15px;
+    display: block;
+    float: none !important;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#post .barcelona-filter-category-wrap .format-setting-inner p:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .barcelona-filter-category-wrap {
+        float: left;
+        width: 49%;
+    }
+
+    .barcelona-filter-tag-wrap {
+        float: left;
+        width: 49.5%;
+        margin-left: 1%;
+    }
+
+    .barcelona-filter-post-wrap {
+        float: left;
+        width: 49.5%;
+        margin-left: 1%;
+    }
+
+    .barcelona-orderby-wrap,
+    .barcelona-pm-choices-wrap {
+        clear: both;
+    }
+
+    .barcelona-orderby-wrap:after {
+        visibility: hidden;
+        display: block;
+        font-size: 0;
+        content: " ";
+        clear: both;
+        height: 0;
+    }
+
+}
+
+/*
+// ==========================================================================================
+// OptionTree UI Button Icons
+// ==========================================================================================
+*/
+
+.option-tree-ui-button .icon {
+    width: 20px;
+}
